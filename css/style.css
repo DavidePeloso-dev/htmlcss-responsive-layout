@@ -23,8 +23,8 @@
     background-color: blueviolet;
 }
 
-/* main */
-.debug #site_main .card{
+/* demo_section */
+.debug .demo_section .card{
     height: 150px;
     border: 1px dashed black;
 }
@@ -37,6 +37,20 @@
 .debug .planning_section .col{
     height: 400px;
     border: 1px dashed black;
+}
+
+/* testimonials_section */
+.debug .testimonials_section .content,.debug .testimonials_section .card{
+    height: 150px;
+    margin: 2rem 0;
+}
+
+.debug .testimonials_section .content{
+    background-color: cadetblue;
+}
+
+.debug .testimonials_section .card{
+    background-color: aquamarine;
 }
 /* --------------------
     /debug_section
