@@ -80,6 +80,17 @@
     background-color: coral;
     border: 1px dashed black;
 }
+
+/* site_footer */
+.debug #site_footer{
+    background-color: crimson;
+}
+
+.debug #site_footer .content{
+    border: 1px dashed black;
+    height: 50px;
+    width: 100%;
+}
 /* --------------------
     /debug_section
 -------------------- */
@@ -195,6 +206,11 @@ width: 100%;
 
 /* pricing_section */
 .pricing_section .secondary_container{
+    padding: 2rem 0;
+}
+
+/* site_footer */
+#site_footer .secondary_container{
     padding: 2rem 0;
 }
 /* --------------------
