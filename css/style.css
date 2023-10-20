@@ -203,6 +203,7 @@ width: 100%;
 /* about_section */
 .about_section .row{
     padding: 2rem 0;
+    flex-wrap: wrap;
 }
 
 /* pricing_section */
@@ -237,6 +238,25 @@ width: 100%;
 
     .benefits_section .col-md-6{
         width: 50%;
+    }
+}
+
+/* mobile_view */
+@media screen and (max-width: 480px) {
+    .about_section .col-sm-12{
+        width: 100%;
+    }
+    
+    .demo_section .col-sm-12{
+        width: 100%;
+    }
+
+    .benefits_section .col-sm-12{
+        width: 100%;
+    }
+
+    .secondary_container{
+        width: 100%;
     }
 }
 /* --------------------
