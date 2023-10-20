@@ -6,3 +6,58 @@
     list-style: none;
     text-decoration: none;
 }
+
+/* --------------------
+     debug_section
+-------------------- */
+.debug #site_header{
+    height: 4rem;
+    width: 100%;
+    background-color: orange;
+}
+
+.debug .logo, .debug .menu li{
+    width: 100px;
+    height: 2rem;
+    background-color: blueviolet;
+}
+/* --------------------
+    /debug_section
+-------------------- */
+
+/* --------------------
+   utilities_section
+-------------------- */
+.container{
+    height: inherit;
+    width: 70%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+/* --------------------
+  /utilities_section
+-------------------- */
+
+/* --------------------
+      gemeral_css
+-------------------- */
+/* header */
+#site_header .row{
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    gap: 1rem;
+}
+
+.menu_icon{
+    display: none;
+}
+/* --------------------
+     /general_css
+-------------------- */
