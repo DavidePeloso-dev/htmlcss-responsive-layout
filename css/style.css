@@ -68,6 +68,18 @@
     height: 400px;
     border: 1px dashed black;
 }
+
+/* pricing_section */
+.debug .pricing_section{
+    background-color: blue;
+}
+
+.debug .pricing_section .content{
+    height: 300px;
+    width: 100%;
+    background-color: coral;
+    border: 1px dashed black;
+}
 /* --------------------
     /debug_section
 -------------------- */
@@ -77,6 +89,11 @@
 -------------------- */
 .container{
     height: inherit;
+    width: 70%;
+    margin: auto;
+}
+
+.secondary_container{
     width: 70%;
     margin: auto;
 }
@@ -173,6 +190,11 @@ width: 100%;
 
 /* about_section */
 .about_section .row{
+    padding: 2rem 0;
+}
+
+/* pricing_section */
+.pricing_section .secondary_container{
     padding: 2rem 0;
 }
 /* --------------------
