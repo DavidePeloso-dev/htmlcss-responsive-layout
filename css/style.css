@@ -52,6 +52,16 @@
 .debug .testimonials_section .card{
     background-color: aquamarine;
 }
+
+/* benefits_section */
+.debug .benefits_section .card{
+    height: 150px;
+    border: 1px dashed black;
+}
+
+.debug .benefits_section{
+    background-color: blue;
+}
 /* --------------------
     /debug_section
 -------------------- */
@@ -147,6 +157,12 @@ width: 100%;
 /* planning_section */
 .planning_section .col{
     margin: 2rem 0;
+}
+
+/* benefits_section */
+.benefits_section .row{
+    flex-wrap: wrap;
+    padding: 2rem 0;
 }
 /* --------------------
      /general_css
