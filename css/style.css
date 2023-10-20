@@ -223,7 +223,7 @@ width: 100%;
       media_query
 -------------------- */
 /* tablet_view */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 975px) {
     .menu li{
         display: none;
     }
@@ -231,7 +231,10 @@ width: 100%;
     .menu_icon{
         display: block;
     }
+}
 
+
+@media screen and (max-width: 768px) {
     .planning_section .col-md-12{
         width:100%;
     }
