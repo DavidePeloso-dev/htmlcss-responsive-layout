@@ -17,7 +17,7 @@
     background-color: orange;
 }
 
-.debug .logo, .debug .menu li{
+.debug .logo, .debug .menu li, .menu_icon{
     width: 100px;
     height: 2rem;
     background-color: blueviolet;
@@ -191,6 +191,7 @@ width: 100%;
 /* planning_section */
 .planning_section .row{
     padding: 2rem 0;
+    flex-wrap: wrap;
 }
 
 /* benefits_section */
@@ -215,4 +216,29 @@ width: 100%;
 }
 /* --------------------
      /general_css
+-------------------- */
+
+/* --------------------
+      media_query
+-------------------- */
+/* tablet_view */
+@media screen and (max-width: 768px) {
+    .menu li{
+        display: none;
+    }
+    
+    .menu_icon{
+        display: block;
+    }
+
+    .planning_section .col-md-12{
+        width:100%;
+    }
+
+    .benefits_section .col-md-6{
+        width: 50%;
+    }
+}
+/* --------------------
+     /media_query
 -------------------- */
