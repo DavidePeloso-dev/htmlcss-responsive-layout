@@ -100,12 +100,12 @@
 -------------------- */
 .container{
     height: inherit;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
 .secondary_container{
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 
@@ -178,7 +178,7 @@ width: 100%;
     gap: 1rem;
 }
 
-.menu_icon{
+.menu li{
     display: none;
 }
 
@@ -222,44 +222,56 @@ width: 100%;
 /* --------------------
       media_query
 -------------------- */
-/* menu_fix--->to_verify_with_content */
-@media screen and (max-width: 975px) {
-    .menu li{
-        display: none;
-    }
-    
-    .menu_icon{
-        display: block;
-    }
-}
-
 /* tablet_view */
-@media screen and (max-width: 768px) {
-    .planning_section .col-md-12{
-        width:100%;
+@media screen and (min-width: 481px) {
+    .demo_section .col-md-8{
+        width: calc(100% / 12 * 8);
+    }
+
+    .demo_section .col-md-4{
+        width: calc(100% / 12 * 4);
     }
 
     .benefits_section .col-md-6{
         width: 50%;
     }
-}
 
-/* mobile_view */
-@media screen and (max-width: 480px) {
-    .about_section .col-sm-12{
-        width: 100%;
-    }
-    
-    .demo_section .col-sm-12{
-        width: 100%;
+    .about_section .col-md-8{
+        width: calc(100% / 12 * 8);
     }
 
-    .benefits_section .col-sm-12{
-        width: 100%;
+    .about_section .col-md-4{
+        width: calc(100% / 12 * 4);
     }
 
     .secondary_container{
-        width: 100%;
+        width: 80%;
+    }
+}
+
+/* desktop_view */
+@media screen and (min-width: 769px) {
+    .planning_section .col-lg-6{
+        width: 50%;
+    }
+
+    .benefits_section .col-lg-4{
+        width: calc(100% / 12 * 4);
+    }
+
+    .container{
+        width: 70%;
+    }
+}
+
+/* menu_fix--->to_verify_with_content */
+@media screen and (min-width: 975px) {
+    .menu li{
+        display: block;
+    }
+    
+    .menu_icon{
+        display: none;
     }
 }
 /* --------------------
