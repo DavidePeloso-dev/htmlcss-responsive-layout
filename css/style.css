@@ -17,7 +17,7 @@
     background-color: orange;
 }
 
-.debug .logo, .debug .menu li, .menu_icon{
+.debug .logo, .debug .menu li, .debug .menu_icon{
     width: 100px;
     height: 2rem;
     background-color: blueviolet;
