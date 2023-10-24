@@ -7,6 +7,15 @@
     text-decoration: none;
 }
 
+:root{
+    --primary-color: #0084FD;
+    --secondary-color: #B5DDFF;
+    --accent-color: #9792E4;
+    --color-ligth: white;
+    --color-dark: black;
+    --color-footer: #333333;
+    --color-extra: #FDC15F;
+}
 /* --------------------
      debug_section
 -------------------- */
@@ -160,6 +169,12 @@ width: calc(100% / 12 * 11);
 .col-12{
 width: 100%;
 }
+
+.btn{
+    background-color: var(--color-ligth);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
 /* --------------------
   /utilities_section
 -------------------- */
@@ -168,10 +183,19 @@ width: 100%;
       gemeral_css
 -------------------- */
 /* header */
+#site_header{
+    background-color: var(--primary-color);
+}
+
 #site_header .row{
     height: inherit;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5rem 0;
+}
+
+.menu a.btn{
+    color: var(--color-dark);
 }
 
 .menu ul{
@@ -180,6 +204,14 @@ width: 100%;
 
 .menu li{
     display: none;
+& a{
+    color: var(--color-ligth);
+}
+}
+
+.menu_icon{
+    color: var(--color-ligth);
+    font-size: 2rem;
 }
 
 /* demo_section */
