@@ -175,6 +175,19 @@ width: 100%;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
 }
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.tx-center{
+    text-align: center;
+}
+
+.flex-end{
+    align-self: flex-end;
+}
 /* --------------------
   /utilities_section
 -------------------- */
@@ -217,7 +230,43 @@ width: 100%;
 /* demo_section */
 .demo_section .row{
     padding: 2rem 0;
+    margin: 0 -1rem;
     flex-wrap: wrap;
+}
+
+.demo_section .card_container{
+    padding: 1rem;
+}
+
+.demo_section .card{
+    background-color: var(--secondary-color);
+    padding: 1rem 1rem 0;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.card .icon{
+    font-size: 4rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.card_items h2{
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.card_items p{
+    padding-bottom: 1rem;
+}
+
+.demo_section .btn{
+    background-color: var(--primary-color);
+    color: var(--color-ligth);
+    width: fit-content;
+    margin-bottom: 1rem;
+    padding: 0.5rem 2.5rem;
 }
 
 /* planning_section */
@@ -256,24 +305,16 @@ width: 100%;
 -------------------- */
 /* tablet_view */
 @media screen and (min-width: 481px) {
-    .demo_section .col-md-8{
+    .demo_section .col-md-8, .about_section .col-md-8{
         width: calc(100% / 12 * 8);
     }
 
-    .demo_section .col-md-4{
+    .demo_section .col-md-4, .about_section .col-md-4{
         width: calc(100% / 12 * 4);
     }
 
-    .benefits_section .col-md-6{
+    .benefits_section .col-md-6, .demo_section .col-md-6{
         width: 50%;
-    }
-
-    .about_section .col-md-8{
-        width: calc(100% / 12 * 8);
-    }
-
-    .about_section .col-md-4{
-        width: calc(100% / 12 * 4);
     }
 
     .secondary_container{
@@ -283,7 +324,7 @@ width: 100%;
 
 /* desktop_view */
 @media screen and (min-width: 769px) {
-    .planning_section .col-lg-6{
+    .planning_section .col-lg-6, .demo_section .col-lg-6{
         width: 50%;
     }
 
