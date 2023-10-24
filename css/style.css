@@ -188,6 +188,18 @@ img{
 .flex-end{
     align-self: flex-end;
 }
+
+p,h2{
+    padding-bottom: 1rem;
+}
+
+.pb-12{
+    padding-bottom: 3rem;
+}
+
+.pb-20{
+    padding-bottom: 5rem;
+}
 /* --------------------
   /utilities_section
 -------------------- */
@@ -246,7 +258,7 @@ img{
     height: 100%;
 }
 
-.card .icon{
+.card_items .icon{
     font-size: 4rem;
     color: var(--primary-color);
     margin-bottom: 1rem;
@@ -254,11 +266,6 @@ img{
 
 .card_items h2{
     color: var(--primary-color);
-    margin-bottom: 1rem;
-}
-
-.card_items p{
-    padding-bottom: 1rem;
 }
 
 .demo_section .btn{
@@ -270,9 +277,38 @@ img{
 }
 
 /* planning_section */
+.planning_section{
+    background-color: var(--accent-color);
+}
+
 .planning_section .row{
     padding: 2rem 0;
     flex-wrap: wrap;
+    color: var(--color-ligth);
+}
+
+.planning_section .col{
+    padding: 2rem;
+}
+
+.planning_section .card{
+    background-color: var(--color-ligth);
+    color: var(--color-dark);
+    border-radius: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planning_section .icon{
+    background-color: var(--accent-color);
+    padding: 1rem;
+    border-radius: 50%;
+    color: #67649b;
+}
+
+.img_sm{
+    width: 70%;
 }
 
 /* benefits_section */
@@ -335,10 +371,7 @@ img{
     .container{
         width: 70%;
     }
-}
 
-/* menu_fix--->to_verify_with_content */
-@media screen and (min-width: 975px) {
     .menu li{
         display: block;
     }
@@ -347,6 +380,17 @@ img{
         display: none;
     }
 }
+
+/* menu_fix--->to_verify_with_content */
+/* @media screen and (min-width: 975px) {
+    .menu li{
+        display: block;
+    }
+    
+    .menu_icon{
+        display: none;
+    }
+} */
 /* --------------------
      /media_query
 -------------------- */
