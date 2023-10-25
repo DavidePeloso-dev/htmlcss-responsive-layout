@@ -172,7 +172,7 @@ width: 100%;
 
 .btn{
     background-color: var(--color-ligth);
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 1rem;
 }
 
@@ -364,9 +364,40 @@ p,h2{
 }
 
 /* benefits_section */
+.benefits_section{
+    background-color: var(--accent-color);
+
+    & .btn{
+        background-color: var(--accent-color);
+        width: fit-content;
+        color: var(--color-ligth);
+    }
+}
+
 .benefits_section .row{
     flex-wrap: wrap;
     padding: 2rem 0;
+    margin: 0 -1rem;
+}
+
+.benefits_section .card_container{
+    padding: 1rem;
+}
+
+.benefits_section .card{
+    background-color: var(--color-ligth);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.benefits_section h2{
+    font-size: 3rem;
+    color: var(--accent-color);
+}
+
+.benefits_section h3{
+    color: var(--accent-color);
+    margin-bottom: 1rem;
 }
 
 /* about_section */
