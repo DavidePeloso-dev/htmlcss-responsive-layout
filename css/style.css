@@ -200,6 +200,10 @@ p,h2{
 .pb-20{
     padding-bottom: 5rem;
 }
+
+.img_sm{
+    width: 70%;
+}
 /* --------------------
   /utilities_section
 -------------------- */
@@ -307,8 +311,56 @@ p,h2{
     color: #67649b;
 }
 
-.img_sm{
-    width: 70%;
+/* testimonials_section */
+.testimonials_section{
+    padding: 2rem 0;
+
+    & p{
+        line-height: 2.2rem;
+    }
+}
+
+.subtitle, .name{
+    text-transform: uppercase;
+}
+
+.card_text p::before{
+    content: "\201C";
+    font-size: 2rem;
+    position: relative;
+    top: .8rem;
+}
+
+.card_text p::after{
+    content: "\201D";
+    font-size: 2rem;
+    position: relative;
+    top: .8rem;
+}
+
+.testimonials_section h2{
+    color: var(--accent-color);
+}
+
+.testimonials_section .card{
+    background-color: var(--accent-color);
+    border-radius: 3rem;
+    padding: 2.5rem;
+    gap: 2rem;
+    align-items: center;
+    color: var(--color-ligth);
+    margin: 1rem 0;
+}
+
+.testimonials_section .card{
+    flex-direction: column;
+}
+
+.avatar{
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /* benefits_section */
@@ -351,6 +403,10 @@ p,h2{
 
     .benefits_section .col-md-6, .demo_section .col-md-6{
         width: 50%;
+    }
+
+    .testimonials_section .card{
+        flex-direction: row;
     }
 
     .secondary_container{
