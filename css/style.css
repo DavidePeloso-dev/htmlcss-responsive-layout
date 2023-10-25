@@ -200,6 +200,11 @@ h2{
 p{
     line-height: 1.5rem;
 }
+
+.py-4{
+    padding: 1rem 0;
+}
+
 .pb-12{
     padding-bottom: 3rem;
 }
@@ -458,10 +463,28 @@ p{
 }
 
 /* pricing_section */
+.pricing_section{
+    background-color: var(--accent-color);
+}
+
 .pricing_section .secondary_container{
     padding: 2rem 0;
 }
 
+.pricing_section .content{
+    color: var(--color-ligth);
+
+    & h2{
+        color: var(--color-extra);
+        padding: 1rem 0;
+    }
+}
+
+.pricing_section .btn{
+    color: var(--accent-color);
+    width: fit-content;
+    margin: auto;
+}
 /* site_footer */
 #site_footer .secondary_container{
     padding: 2rem 0;
@@ -492,7 +515,7 @@ p{
     }
 
     .secondary_container{
-        width: 80%;
+        width: 70%;
     }
 }
 
