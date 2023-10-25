@@ -489,6 +489,16 @@ p{
 #site_footer .secondary_container{
     padding: 2rem 0;
 }
+
+#site_footer{
+    background-color: var(--color-footer);
+    color: var(--color-ligth);
+
+    & a{
+        color: var(--accent-color);
+        text-decoration: underline;
+    }
+}
 /* --------------------
      /general_css
 -------------------- */
