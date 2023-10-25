@@ -197,6 +197,9 @@ h2{
     font-size: 2rem;
 }
 
+p{
+    line-height: 1.5rem;
+}
 .pb-12{
     padding-bottom: 3rem;
 }
@@ -416,6 +419,42 @@ h2{
 .about_section .row{
     padding: 2rem 0;
     flex-wrap: wrap;
+}
+
+.about_section .col{
+    padding: 1rem;
+}
+
+.about_section h2{
+    color: var(--accent-color);
+}
+
+.about_section .about_avatar{
+    position: relative;
+}
+
+.about_section img{
+    border-radius: 50%;
+}
+
+.about_section .detail{
+    position: absolute;
+    font-size: 8rem;
+    color: var(--accent-color);
+    top: 0;
+    right: 0;
+}
+
+.about_section .about_avatar h3{
+    padding: 2rem 0;
+    color: var(--accent-color);
+    font-size: 1.5rem;
+}
+
+.about_avatar .btn{
+    background-color: var(--accent-color);
+    color: var(--color-ligth);
+    width: fit-content;
 }
 
 /* pricing_section */
